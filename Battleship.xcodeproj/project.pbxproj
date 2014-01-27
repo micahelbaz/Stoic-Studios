@@ -17,13 +17,17 @@
 		87CA677A1896DC140081C2B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CA67781896DC140081C2B8 /* Main.storyboard */; };
 		87CA677D1896DC140081C2B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CA677C1896DC140081C2B8 /* ViewController.m */; };
 		87CA67801896DC140081C2B8 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CA677F1896DC140081C2B8 /* MyScene.m */; };
-		87CA67821896DC140081C2B8 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 87CA67811896DC140081C2B8 /* Spaceship.png */; };
 		87CA67841896DC140081C2B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CA67831896DC140081C2B8 /* Images.xcassets */; };
 		87CA678B1896DC140081C2B8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CA678A1896DC140081C2B8 /* XCTest.framework */; };
 		87CA678C1896DC140081C2B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CA67641896DC140081C2B8 /* Foundation.framework */; };
 		87CA678D1896DC140081C2B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CA67681896DC140081C2B8 /* UIKit.framework */; };
 		87CA67951896DC140081C2B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87CA67931896DC140081C2B8 /* InfoPlist.strings */; };
 		87CA67971896DC140081C2B8 /* BattleshipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CA67961896DC140081C2B8 /* BattleshipTests.m */; };
+		87CA67A31896DD370081C2B8 /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CA67A21896DD370081C2B8 /* Ship.m */; };
+		87CA67A61896E4200081C2B8 /* Coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CA67A51896E4200081C2B8 /* Coordinate.m */; };
+		87CA67A91896E5860081C2B8 /* Range.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CA67A81896E5860081C2B8 /* Range.m */; };
+		87CA67AC1896E6550081C2B8 /* ShipSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CA67AB1896E6550081C2B8 /* ShipSegment.m */; };
+		87CA67AF1896E8850081C2B8 /* Cruiser.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CA67AE1896E8850081C2B8 /* Cruiser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,13 +57,22 @@
 		87CA677C1896DC140081C2B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		87CA677E1896DC140081C2B8 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		87CA677F1896DC140081C2B8 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		87CA67811896DC140081C2B8 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		87CA67831896DC140081C2B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		87CA67891896DC140081C2B8 /* BattleshipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleshipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CA678A1896DC140081C2B8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		87CA67921896DC140081C2B8 /* BattleshipTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BattleshipTests-Info.plist"; sourceTree = "<group>"; };
 		87CA67941896DC140081C2B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		87CA67961896DC140081C2B8 /* BattleshipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattleshipTests.m; sourceTree = "<group>"; };
+		87CA67A11896DD370081C2B8 /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
+		87CA67A21896DD370081C2B8 /* Ship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ship.m; sourceTree = "<group>"; };
+		87CA67A41896E4200081C2B8 /* Coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coordinate.h; sourceTree = "<group>"; };
+		87CA67A51896E4200081C2B8 /* Coordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coordinate.m; sourceTree = "<group>"; };
+		87CA67A71896E5860081C2B8 /* Range.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Range.h; sourceTree = "<group>"; };
+		87CA67A81896E5860081C2B8 /* Range.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Range.m; sourceTree = "<group>"; };
+		87CA67AA1896E6550081C2B8 /* ShipSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipSegment.h; sourceTree = "<group>"; };
+		87CA67AB1896E6550081C2B8 /* ShipSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShipSegment.m; sourceTree = "<group>"; };
+		87CA67AD1896E8850081C2B8 /* Cruiser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cruiser.h; sourceTree = "<group>"; };
+		87CA67AE1896E8850081C2B8 /* Cruiser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cruiser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,15 +134,13 @@
 		87CA676C1896DC140081C2B8 /* Battleship */ = {
 			isa = PBXGroup;
 			children = (
-				87CA67751896DC140081C2B8 /* AppDelegate.h */,
-				87CA67761896DC140081C2B8 /* AppDelegate.m */,
 				87CA67781896DC140081C2B8 /* Main.storyboard */,
 				87CA677B1896DC140081C2B8 /* ViewController.h */,
 				87CA677C1896DC140081C2B8 /* ViewController.m */,
 				87CA677E1896DC140081C2B8 /* MyScene.h */,
 				87CA677F1896DC140081C2B8 /* MyScene.m */,
-				87CA67811896DC140081C2B8 /* Spaceship.png */,
 				87CA67831896DC140081C2B8 /* Images.xcassets */,
+				87CA67A01896DD040081C2B8 /* Model */,
 				87CA676D1896DC140081C2B8 /* Supporting Files */,
 			);
 			path = Battleship;
@@ -138,6 +149,8 @@
 		87CA676D1896DC140081C2B8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				87CA67751896DC140081C2B8 /* AppDelegate.h */,
+				87CA67761896DC140081C2B8 /* AppDelegate.m */,
 				87CA676E1896DC140081C2B8 /* Battleship-Info.plist */,
 				87CA676F1896DC140081C2B8 /* InfoPlist.strings */,
 				87CA67721896DC140081C2B8 /* main.m */,
@@ -162,6 +175,23 @@
 				87CA67931896DC140081C2B8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87CA67A01896DD040081C2B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87CA67A11896DD370081C2B8 /* Ship.h */,
+				87CA67A21896DD370081C2B8 /* Ship.m */,
+				87CA67A41896E4200081C2B8 /* Coordinate.h */,
+				87CA67A51896E4200081C2B8 /* Coordinate.m */,
+				87CA67A71896E5860081C2B8 /* Range.h */,
+				87CA67A81896E5860081C2B8 /* Range.m */,
+				87CA67AA1896E6550081C2B8 /* ShipSegment.h */,
+				87CA67AB1896E6550081C2B8 /* ShipSegment.m */,
+				87CA67AD1896E8850081C2B8 /* Cruiser.h */,
+				87CA67AE1896E8850081C2B8 /* Cruiser.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,7 +272,6 @@
 			files = (
 				87CA67711896DC140081C2B8 /* InfoPlist.strings in Resources */,
 				87CA67841896DC140081C2B8 /* Images.xcassets in Resources */,
-				87CA67821896DC140081C2B8 /* Spaceship.png in Resources */,
 				87CA677A1896DC140081C2B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,10 +291,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87CA67A31896DD370081C2B8 /* Ship.m in Sources */,
+				87CA67A61896E4200081C2B8 /* Coordinate.m in Sources */,
 				87CA67801896DC140081C2B8 /* MyScene.m in Sources */,
+				87CA67A91896E5860081C2B8 /* Range.m in Sources */,
 				87CA677D1896DC140081C2B8 /* ViewController.m in Sources */,
 				87CA67771896DC140081C2B8 /* AppDelegate.m in Sources */,
 				87CA67731896DC140081C2B8 /* main.m in Sources */,
+				87CA67AF1896E8850081C2B8 /* Cruiser.m in Sources */,
+				87CA67AC1896E6550081C2B8 /* ShipSegment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

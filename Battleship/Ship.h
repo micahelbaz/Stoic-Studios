@@ -1,0 +1,33 @@
+//
+//  Ship.h
+//  Battleship
+//
+//  Created by Robert Schneidman on 1/27/2014.
+//  Copyright (c) 2014 COMP-361. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "Coordinate.h"
+#import "Range.h"
+
+@interface Ship : NSObject
+
+typedef enum armourType
+{
+    NORMAL,
+    HEAVY
+} Armour;
+
+@property (strong, nonatomic) NSArray* blocks; //of ShipSegment
+@property (readonly) int size;
+@property (readonly) int speed;
+@property Armour armourType;
+@property (readonly) NSArray* weapons;
+@property Coordinate *location;
+@property Range *radarRange;
+
+- (void)move: (Coordinate *)destination;
+- (void)repair;
+
+@end
+
