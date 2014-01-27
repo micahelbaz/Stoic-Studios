@@ -14,7 +14,7 @@
 {
     self = [super init];
     if (self) {
-        self.size = 5;
+        self.size = 6;
     }
     return self;
 }
