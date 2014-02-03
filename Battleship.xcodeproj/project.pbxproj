@@ -51,6 +51,9 @@
 		878D44EA18A0478A00F90690 /* MineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineLayer.h; sourceTree = "<group>"; };
 		878D44EB18A0478A00F90690 /* MineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineLayer.m; sourceTree = "<group>"; };
 		878D44ED18A0481E00F90690 /* Mine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mine.h; sourceTree = "<group>"; };
+		878D44F018A053EE00F90690 /* WeaponType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeaponType.h; sourceTree = "<group>"; };
+		878D44F318A0542400F90690 /* ShipArmourType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipArmourType.h; sourceTree = "<group>"; };
+		878D44F618A0550500F90690 /* ShipRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipRotation.h; sourceTree = "<group>"; };
 		87CA67611896DC140081C2B8 /* Battleship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Battleship.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CA67641896DC140081C2B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		87CA67661896DC140081C2B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -203,6 +206,9 @@
 				878D44EA18A0478A00F90690 /* MineLayer.h */,
 				878D44EB18A0478A00F90690 /* MineLayer.m */,
 				878D44ED18A0481E00F90690 /* Mine.h */,
+				878D44F018A053EE00F90690 /* WeaponType.h */,
+				878D44F318A0542400F90690 /* ShipArmourType.h */,
+				878D44F618A0550500F90690 /* ShipRotation.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";

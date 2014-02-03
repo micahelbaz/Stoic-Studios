@@ -10,27 +10,10 @@
 #import "Coordinate.h"
 #import "Range.h"
 #import "ShipSegment.h"
+#import "ShipArmourType.h"
+#import "ShipRotation.h"
+
 @interface Ship : NSObject
-
-typedef enum shipArmourType
-{
-    NORMAL_ARMOUR,
-    HEAVY_ARMOUR
-} ShipArmour;
-
-typedef enum shipRotation
-{
-    LEFT,
-    RIGHT,
-    FULL
-} Rotation;
-
-typedef enum WeaponType
-{
-    HEAVY_CANNON,
-    CANNON,
-    TORPEDO
-} Weapon;
 
 @property (strong, nonatomic) NSMutableArray* blocks; //of ShipSegment
 @property int size;

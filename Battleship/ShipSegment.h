@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Ship.h"
+#import "ShipArmourType.h"
 @interface ShipSegment : NSObject
 
 @property ShipArmour segmentArmourType;
