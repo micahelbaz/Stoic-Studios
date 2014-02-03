@@ -10,13 +10,4 @@
 
 @implementation ShipSegment
 
-typedef enum armourType
-{
-    DESTROYED,
-    NORMAL,
-    HEAVY
-} Armour;
-
-@property Armour *armourType
-
 @end

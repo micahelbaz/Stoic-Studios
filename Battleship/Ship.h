@@ -9,23 +9,24 @@
 #import <Foundation/Foundation.h>
 #import "Coordinate.h"
 #import "Range.h"
-
+#import "ShipSegment.h"
 @interface Ship : NSObject
 
-typedef enum armourType
+typedef enum shipArmourType
 {
-    NORMAL,
-    HEAVY
-} Armour;
+    NORMAL_ARMOUR,
+    HEAVY_ARMOUR
+} ShipArmour;
 
-@property (strong, nonatomic) NSArray* blocks; //of ShipSegment
-@property (readonly) int size;
-@property (readonly) int speed;
-@property Armour armourType;
-@property (readonly) NSArray* weapons;
+@property (strong, nonatomic) NSMutableArray* blocks; //of ShipSegment
+@property int size;
+@property int speed;
+@property ShipArmour shipArmourType;
+@property (strong, nonatomic) NSMutableArray* weapons;
 @property Coordinate *location;
 @property Range *radarRange;
 
+- (instancetype) initWithLocation: (Coordinate*) initialPosition;
 - (void)move: (Coordinate *)destination;
 - (void)repair;
 

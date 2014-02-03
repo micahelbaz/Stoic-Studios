@@ -1,5 +1,5 @@
 //
-//  Cruiser.h
+//  Destroyer.h
 //  Battleship
 //
 //  Created by Robert Schneidman on 1/27/2014.
@@ -8,7 +8,7 @@
 
 #import "Ship.h"
 
-@interface Cruiser : Ship
+@interface Destroyer : Ship
 
 - (instancetype)initWithLocation:(Coordinate *)initialPosition;
 

@@ -10,7 +10,6 @@
 
 @interface Range : NSObject
 
-@property int xRange;
-@property int yRange;
-
+@property int rangeHeight;
+@property int rangeWidth;
 @end

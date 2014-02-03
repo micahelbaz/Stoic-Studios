@@ -10,4 +10,13 @@
 
 @interface ShipSegment : NSObject
 
+typedef enum armourType
+{
+    DESTROYED,
+    NORMAL,
+    HEAVY
+} Armour;
+
+@property Armour armourType;
+
 @end
