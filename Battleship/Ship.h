@@ -36,7 +36,7 @@ typedef enum shipRotation
 - (instancetype) initWithLocation: (Coordinate*) initialPosition;
 - (void)move: (Coordinate *)destination;
 - (void)repair;
-- (void)rotate: (Rotation *)destination;
+- (void)rotate: (Rotation)destination;
 
 @end
 

@@ -10,7 +10,16 @@
 
 @interface Coordinate : NSObject
 
+typedef enum directionType
+{
+    NORTH,
+    SOUTH,
+    EAST,
+    WEST
+} Direction;
+
 @property int xCoord;
 @property int yCoord;
+@property Direction direction;
 
 @end
