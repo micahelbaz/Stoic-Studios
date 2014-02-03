@@ -7,7 +7,6 @@
 //
 
 #import "Ship.h"
-#import "ShipSegment.h
 
 @implementation Ship
 
@@ -24,8 +23,10 @@
 
 -(void)repair {
     for (int i = 0; i < self.size; i++) {
-        
-        if (self.blocks[i].)
+        ShipSegment *nextSeg = self.blocks[i];
+        if (nextSeg.segmentArmourType != self.shipArmourType) {
+            
+        }
     }
 }
 -(void)move:(Coordinate *)destination {
