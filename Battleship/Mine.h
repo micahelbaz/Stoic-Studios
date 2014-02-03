@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Coordinate.h"
 
 @interface Mine : NSObject
+
+@property Coordinate* location;
 
 @end

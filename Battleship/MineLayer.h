@@ -10,4 +10,7 @@
 
 @interface MineLayer : Ship
 
+@property int numMines;
+- (instancetype)initWithLocation:(Coordinate *)initialPosition;
+
 @end
