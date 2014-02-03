@@ -29,7 +29,7 @@ typedef enum shipRotation
 @property int size;
 @property int speed;
 @property ShipArmour shipArmourType;
-@property (strong, nonatomic) NSMutableArray* weapons;
+@property (strong, nonatomic) NSMutableArray* weapons; //of Weapons
 @property Coordinate *location;
 @property Range *radarRange;
 
