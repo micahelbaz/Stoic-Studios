@@ -30,7 +30,7 @@
         }
         self.radarRange.rangeHeight = 10;
         self.radarRange.rangeWidth = 3;
-        self.radarRange.startRange = 
+        self.radarRange.startRange = 1;
     }
     return self;
 }
@@ -38,33 +38,47 @@
 -(void)rotate:(Rotation)destination{
     if(destination == RIGHT){
         if(self.location.direction == NORTH){
-            self.location.xCoord+=3;
-            self.location.yCoord-=3;
+            self.location.xCoord+=4;
+            self.location.yCoord-=4;
+            self.location.direction=EAST;
         }
         if(self.location.direction == SOUTH){
-            self.location.xCoord-=3;
-            self.location.yCoord+=3;
+            self.location.xCoord-=4;
+            self.location.yCoord+=4;
+            self.location.direction=WEST;
         }
         if(self.location.direction == WEST){
-            self.location.xCoord+=3;
-            self.location.yCoord+=3;
+            self.location.xCoord+=4;
+            self.location.yCoord+=4;
+            self.location.direction=NORTH;
         }
         if(self.location.direction == EAST){
-            self.location.xCoord-=3;
-            self.location.yCoord-=3;
+            self.location.xCoord-=4;
+            self.location.yCoord-=4;
+            self.location.direction=SOUTH;
         }
     }
     if(destination == LEFT){
         if(self.location.direction == NORTH){
-            self.location.direction-=3;
-            self.location.direction-=3;
+            self.location.xCoord-=4;
+            self.location.yCoord-=4;
+            self.location.direction=WEST;
         }
         if(self.location.direction == SOUTH){
-            self.location.direction+=3;
-            self.location.direction+=3;
+            self.location.xCoord+=4;
+            self.location.yCoord+=4;
+            self.location.direction=EAST;
         }
-        if(self.location.direction == )
+        if(self.location.direction == WEST){
+            self.location.xCoord+=4;
+            self.location.yCoord-=4;
+            self.location.direction=SOUTH;
+        }
+        if(self.location.direction == EAST){
+            self.location.xCoord-=4;
+            self.location.yCoord+=4;
+            self.location.direction=NORTH;
+        }
     }
 }
-
 @end
