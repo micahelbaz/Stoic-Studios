@@ -30,7 +30,7 @@
         }
         self.radarRange.rangeHeight = 10;
         self.radarRange.rangeWidth = 3;
-        self.radarRange.startRange = 
+        self.radarRange.startRange = 1;
     }
     return self;
 }

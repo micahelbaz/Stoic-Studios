@@ -24,6 +24,7 @@
         }
         self.radarRange.rangeHeight = 6;
         self.radarRange.rangeWidth = 3;
+        self.radarRange.startRange = 1;
     }
     return self;
 }
