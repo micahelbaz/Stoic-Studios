@@ -18,6 +18,13 @@ typedef enum shipArmourType
     HEAVY_ARMOUR
 } ShipArmour;
 
+typedef enum shipRotation
+{
+    LEFT,
+    RIGHT,
+    FULL
+} Rotation;
+
 @property (strong, nonatomic) NSMutableArray* blocks; //of ShipSegment
 @property int size;
 @property int speed;
@@ -29,6 +36,7 @@ typedef enum shipArmourType
 - (instancetype) initWithLocation: (Coordinate*) initialPosition;
 - (void)move: (Coordinate *)destination;
 - (void)repair;
+- (void)rotate: (Rotation *)destination;
 
 @end
 

@@ -12,4 +12,5 @@
 
 @property int rangeHeight;
 @property int rangeWidth;
+@property int startRange;
 @end
