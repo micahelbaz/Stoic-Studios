@@ -30,7 +30,7 @@
     _location.yCoord = destination.yCoord;
 }
 
--(void)rotate:(Rotation *) destination {
+-(void)rotate:(Rotation) destination {
  //abstract class
 }
 
