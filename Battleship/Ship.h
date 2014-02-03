@@ -25,6 +25,13 @@ typedef enum shipRotation
     FULL
 } Rotation;
 
+typedef enum WeaponType
+{
+    HEAVY_CANNON,
+    CANNON,
+    TORPEDO
+} Weapon;
+
 @property (strong, nonatomic) NSMutableArray* blocks; //of ShipSegment
 @property int size;
 @property int speed;

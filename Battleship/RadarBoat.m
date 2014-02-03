@@ -48,4 +48,70 @@
         self.radarRange.rangeHeight = 6;
     }
 }
+
+-(void)rotate:(Rotation)destination{
+    if(destination == RIGHT){
+        if(self.location.direction == NORTH){
+            self.location.xCoord+=1;
+            self.location.yCoord-=1;
+            self.location.direction=EAST;
+        }
+        if(self.location.direction == SOUTH){
+            self.location.xCoord-=1;
+            self.location.yCoord+=1;
+            self.location.direction=WEST;
+        }
+        if(self.location.direction == WEST){
+            self.location.xCoord+=1;
+            self.location.yCoord+=1;
+            self.location.direction=NORTH;
+        }
+        if(self.location.direction == EAST){
+            self.location.xCoord-=1;
+            self.location.yCoord-=1;
+            self.location.direction=SOUTH;
+        }
+    }
+    if(destination == LEFT){
+        if(self.location.direction == NORTH){
+            self.location.xCoord-=1;
+            self.location.yCoord-=1;
+            self.location.direction=WEST;
+        }
+        if(self.location.direction == SOUTH){
+            self.location.xCoord+=1;
+            self.location.yCoord+=1;
+            self.location.direction=EAST;
+        }
+        if(self.location.direction == WEST){
+            self.location.xCoord+=1;
+            self.location.yCoord-=1;
+            self.location.direction=SOUTH;
+        }
+        if(self.location.direction == EAST){
+            self.location.xCoord-=1;
+            self.location.yCoord+=1;
+            self.location.direction=NORTH;
+        }
+    }
+    if(destination == FULL){
+        if(self.location.direction == NORTH){
+            self.location.yCoord-=3;
+            self.location.direction=SOUTH;
+        }
+        if(self.location.direction == SOUTH){
+            self.location.yCoord+=3;
+            self.location.direction=NORTH;
+        }
+        if(self.location.direction == WEST){
+            self.location.xCoord+=3;
+            self.location.direction=EAST;
+        }
+        if(self.location.direction == EAST){
+            self.location.xCoord-=3;
+            self.location.direction=WEST;
+        }
+    }
+}
+
 @end
