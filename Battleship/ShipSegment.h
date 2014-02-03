@@ -7,16 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Ship.h"
 @interface ShipSegment : NSObject
 
-typedef enum armourType
-{
-    DESTROYED,
-    NORMAL,
-    HEAVY
-} Armour;
-
-@property Armour armourType;
+@property ShipArmour segmentArmourType;
 
 @end

@@ -1,5 +1,5 @@
 //
-//  RadarBoat.h
+//  MineLayer.h
 //  Battleship
 //
 //  Created by Robert Schneidman on 2/3/2014.
@@ -8,10 +8,9 @@
 
 #import "Ship.h"
 
-@interface RadarBoat : Ship
+@interface MineLayer : Ship
 
-@property BOOL isExtendedRadarOn;
-
+@property int numMines;
 - (instancetype)initWithLocation:(Coordinate *)initialPosition;
 
 @end

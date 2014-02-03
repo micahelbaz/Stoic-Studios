@@ -19,11 +19,12 @@
         self.shipArmourType = NORMAL_ARMOUR;
         for (int i = 0; i < self.size; i++) {
             ShipSegment* nextSeg = [[ShipSegment alloc] init];
-            nextSeg.armourType = NORMAL;
+            nextSeg.segmentArmourType = NORMAL_ARMOUR;
             self.blocks[i] = nextSeg;
         }
         self.radarRange.rangeHeight = 8;
         self.radarRange.rangeWidth = 3;
+        self.radarRange.startRange = 1;
     }
     return self;
 }

@@ -7,24 +7,27 @@
 //
 
 #import "Ship.h"
+#import "ShipSegment.h
 
 @implementation Ship
-
-- (NSArray *)blocks
-{
-    if (!self.blocks) self.blocks = [[NSMutableArray alloc] init];
-    return self.blocks;
-}
 
 -(instancetype) initWithLocation:(Coordinate *)initialPosition {
     self = [super init];
     if (self) {
         _location.xCoord = initialPosition.xCoord;
         _location.yCoord = initialPosition.yCoord;
+        _location.direction = initialPosition.direction;
+        self.blocks = [[NSMutableArray alloc] init];
     }
     return self;
 }
 
+-(void)repair {
+    for (int i = 0; i < self.size; i++) {
+        
+        if (self.blocks[i].)
+    }
+}
 -(void)move:(Coordinate *)destination {
     _location.xCoord = destination.xCoord;
     _location.yCoord = destination.yCoord;

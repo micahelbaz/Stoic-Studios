@@ -25,7 +25,7 @@
         self.shipArmourType = HEAVY_ARMOUR;
         for (int i = 0; i < self.size; i++) {
             ShipSegment* nextSeg = [[ShipSegment alloc] init];
-            nextSeg.armourType = HEAVY;
+            nextSeg.segmentArmourType = HEAVY_ARMOUR;
             self.blocks[i] = nextSeg;
         }
         self.radarRange.rangeHeight = 10;
