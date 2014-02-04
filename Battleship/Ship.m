@@ -17,6 +17,7 @@
         _location.yCoord = initialPosition.yCoord;
         _location.direction = initialPosition.direction;
         self.blocks = [[NSMutableArray alloc] init];
+        self.weapons = [[NSMutableArray alloc] init];
     }
     return self;
 }
