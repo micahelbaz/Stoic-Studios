@@ -28,10 +28,6 @@
         RadarBoat *r1 = [[RadarBoat alloc] initWithLocation: c];
         
         self.shipArray = [NSArray arrayWithObjects:c1,c2,c3,d1,d2,d3,t1,t2,m1,m2,r1,nil];
-        
-        
-
-                                                            
     }
     return self;
 }
