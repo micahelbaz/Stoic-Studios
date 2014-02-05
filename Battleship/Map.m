@@ -22,6 +22,7 @@
                 [self.grid[i][j] addObject:array1];
             }
         }
+    
     }
     return self;
 }
