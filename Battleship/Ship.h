@@ -23,6 +23,7 @@
 @property (strong, nonatomic) NSMutableArray* weapons; //of Weapons
 @property Coordinate *location;
 @property Range *radarRange;
+@property Range *canonRange
 
 - (instancetype) initWithLocation: (Coordinate*) initialPosition;
 - (void)move: (Coordinate *)destination;
