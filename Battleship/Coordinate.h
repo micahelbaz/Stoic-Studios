@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "DirectionType.h"
+
 @interface Coordinate : NSObject
 
 @property int xCoord;
@@ -16,5 +17,5 @@
 
 - (instancetype) initWithXCoordinate: (int)xCoordinate
                          YCoordinate:(int) yCoordinate
-                          initiallyFacing:(Direction) facingDirection;
+                     initiallyFacing:(Direction) facingDirection;
 @end

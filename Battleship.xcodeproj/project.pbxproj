@@ -29,6 +29,8 @@
 		87CA67971896DC140081C2B8 /* BattleshipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CA67961896DC140081C2B8 /* BattleshipTests.m */; };
 		87CA67A31896DD370081C2B8 /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CA67A21896DD370081C2B8 /* Ship.m */; };
 		87CA67AF1896E8850081C2B8 /* Cruiser.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CA67AE1896E8850081C2B8 /* Cruiser.m */; };
+		87D2DA5718A2D35300A4A247 /* Coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D2DA5618A2D35300A4A247 /* Coordinate.m */; };
+		87D2DA5B18A2D3BC00A4A247 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D2DA5A18A2D3BC00A4A247 /* Map.m */; };
 		94FAF4BC18A2CA4500C457D8 /* Fleet.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FAF4BB18A2CA4500C457D8 /* Fleet.m */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +85,11 @@
 		87CA67AA1896E6550081C2B8 /* ShipSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipSegment.h; sourceTree = "<group>"; };
 		87CA67AD1896E8850081C2B8 /* Cruiser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cruiser.h; sourceTree = "<group>"; };
 		87CA67AE1896E8850081C2B8 /* Cruiser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cruiser.m; sourceTree = "<group>"; };
+		87D2DA5518A2D35300A4A247 /* Coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coordinate.h; sourceTree = "<group>"; };
+		87D2DA5618A2D35300A4A247 /* Coordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coordinate.m; sourceTree = "<group>"; };
+		87D2DA5818A2D3BC00A4A247 /* DirectionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionType.h; sourceTree = "<group>"; };
+		87D2DA5918A2D3BC00A4A247 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		87D2DA5A18A2D3BC00A4A247 /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
 		94FAF4BA18A2CA4500C457D8 /* Fleet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fleet.h; sourceTree = "<group>"; };
 		94FAF4BB18A2CA4500C457D8 /* Fleet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fleet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -192,6 +199,9 @@
 		87CA67A01896DD040081C2B8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				87D2DA5818A2D3BC00A4A247 /* DirectionType.h */,
+				87D2DA5918A2D3BC00A4A247 /* Map.h */,
+				87D2DA5A18A2D3BC00A4A247 /* Map.m */,
 				87CA67A11896DD370081C2B8 /* Ship.h */,
 				87CA67A21896DD370081C2B8 /* Ship.m */,
 				87CA67A71896E5860081C2B8 /* Range.h */,
@@ -212,6 +222,8 @@
 				878D44F618A0550500F90690 /* ShipRotation.h */,
 				94FAF4BA18A2CA4500C457D8 /* Fleet.h */,
 				94FAF4BB18A2CA4500C457D8 /* Fleet.m */,
+				87D2DA5518A2D35300A4A247 /* Coordinate.h */,
+				87D2DA5618A2D35300A4A247 /* Coordinate.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -313,17 +325,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87D2DA5018A2CAC300A4A247 /* Map.m in Sources */,
 				87CA67A31896DD370081C2B8 /* Ship.m in Sources */,
 				87CA67801896DC140081C2B8 /* MyScene.m in Sources */,
 				870B574B18974DD80046FCA2 /* TorpedoBoat.m in Sources */,
 				87CA677D1896DC140081C2B8 /* ViewController.m in Sources */,
 				878D44E918A0384200F90690 /* RadarBoat.m in Sources */,
 				87CA67771896DC140081C2B8 /* AppDelegate.m in Sources */,
-				87D2DA5318A2CDAD00A4A247 /* Coordinate.m in Sources */,
 				87CA67731896DC140081C2B8 /* main.m in Sources */,
+				87D2DA5718A2D35300A4A247 /* Coordinate.m in Sources */,
 				870B5748189748100046FCA2 /* Destroyer.m in Sources */,
 				94FAF4BC18A2CA4500C457D8 /* Fleet.m in Sources */,
+				87D2DA5B18A2D3BC00A4A247 /* Map.m in Sources */,
 				87CA67AF1896E8850081C2B8 /* Cruiser.m in Sources */,
 				878D44EC18A0478A00F90690 /* MineLayer.m in Sources */,
 			);
