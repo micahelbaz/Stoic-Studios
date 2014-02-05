@@ -14,7 +14,7 @@ typedef enum WeaponType
 {
     HEAVY_CANNON,
     CANNON,
-    TORPEDO
+    TORPEDO,
 } Weapon;
 
 @end

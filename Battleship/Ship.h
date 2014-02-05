@@ -12,6 +12,7 @@
 #import "ShipSegment.h"
 #import "ShipArmourType.h"
 #import "ShipRotation.h"
+#import "WeaponType.h"
 
 @interface Ship : NSObject
 

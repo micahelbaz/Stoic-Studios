@@ -28,6 +28,7 @@
             nextSeg.segmentArmourType = HEAVY_ARMOUR;
             self.blocks[i] = nextSeg;
         }
+        [self.weapons addObject:[NSNumber numberWithInt:HEAVY_CANNON]];
         self.radarRange.rangeHeight = 10;
         self.radarRange.rangeWidth = 3;
         self.radarRange.startRange = 1;
