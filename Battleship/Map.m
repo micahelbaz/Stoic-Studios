@@ -13,8 +13,13 @@
 - (instancetype) init {
     self = [super init];
     if (self) {
-        [grid]
+        _grid = [[NSArray alloc] init];
+        for (int i = 0; i < 30; i++) {
+            _grid[i] =
+        }
+    
     }
+    return self;
 }
 
 @end
