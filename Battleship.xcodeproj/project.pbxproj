@@ -29,6 +29,7 @@
 		87CA67971896DC140081C2B8 /* BattleshipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CA67961896DC140081C2B8 /* BattleshipTests.m */; };
 		87CA67A31896DD370081C2B8 /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CA67A21896DD370081C2B8 /* Ship.m */; };
 		87CA67AF1896E8850081C2B8 /* Cruiser.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CA67AE1896E8850081C2B8 /* Cruiser.m */; };
+		94FAF4BC18A2CA4500C457D8 /* Fleet.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FAF4BB18A2CA4500C457D8 /* Fleet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,8 @@
 		87CA67AA1896E6550081C2B8 /* ShipSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipSegment.h; sourceTree = "<group>"; };
 		87CA67AD1896E8850081C2B8 /* Cruiser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cruiser.h; sourceTree = "<group>"; };
 		87CA67AE1896E8850081C2B8 /* Cruiser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cruiser.m; sourceTree = "<group>"; };
+		94FAF4BA18A2CA4500C457D8 /* Fleet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fleet.h; sourceTree = "<group>"; };
+		94FAF4BB18A2CA4500C457D8 /* Fleet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fleet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +212,8 @@
 				878D44F018A053EE00F90690 /* WeaponType.h */,
 				878D44F318A0542400F90690 /* ShipArmourType.h */,
 				878D44F618A0550500F90690 /* ShipRotation.h */,
+				94FAF4BA18A2CA4500C457D8 /* Fleet.h */,
+				94FAF4BB18A2CA4500C457D8 /* Fleet.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -318,6 +323,7 @@
 				87CA67771896DC140081C2B8 /* AppDelegate.m in Sources */,
 				87CA67731896DC140081C2B8 /* main.m in Sources */,
 				870B5748189748100046FCA2 /* Destroyer.m in Sources */,
+				94FAF4BC18A2CA4500C457D8 /* Fleet.m in Sources */,
 				87CA67AF1896E8850081C2B8 /* Cruiser.m in Sources */,
 				878D44EC18A0478A00F90690 /* MineLayer.m in Sources */,
 			);
