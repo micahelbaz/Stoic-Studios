@@ -7,6 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Ship.h"
+#import "Cruiser.h"
+#import "Destroyer.h"
+#import "TorpedoBoat.h"
+#import "RadarBoat.h"
+#import "MineLayer.h"
 
 @interface Fleet : NSObject
 
