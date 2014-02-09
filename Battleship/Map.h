@@ -7,9 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "TerrainType.h"
 @interface Map : NSObject
 
-@property (strong, nonatomic) NSArray* grid;
+@property (strong, nonatomic) NSMutableArray* grid;
 
+-(instancetype) init;
 @end
